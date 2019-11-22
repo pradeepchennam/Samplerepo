@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="jenkins-sampleFlow" doc:id="6e128ae5-5963-425a-8593-d7fd342ef670" >
 		<http:listener doc:name="Listener" doc:id="07c0c112-57be-4b15-82ef-a478939304a1" config-ref="HTTP_Listener_config" path="/jenkins"/>
-		<set-payload value="Hello world" doc:name="Set Payload" doc:id="a12835bb-075d-4ffc-aca1-9bdae559112d" />
+		<set-payload value='"Hello world!"' doc:name="Set Payload" doc:id="a12835bb-075d-4ffc-aca1-9bdae559112d" />
 	</flow>
 </mule>
