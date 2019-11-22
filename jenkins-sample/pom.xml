@@ -40,8 +40,8 @@
       </properties>
     </armDeployment>
   </configuration>
-</plugin>
-<plugin>
+     </plugin>
+          <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-scm-plugin</artifactId>
 				<version>1.9.5</version>
